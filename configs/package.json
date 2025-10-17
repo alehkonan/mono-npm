@@ -1,0 +1,16 @@
+{
+  "name": "@mono-npm/configs",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    "./eslint-config": "./eslint.config.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.38.0",
+    "eslint": "^9.38.0",
+    "eslint-plugin-react-hooks": "^7.0.0",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@mono-npm/utils",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.ts",
+  "devDependencies": {
+    "@mono-npm/configs": "1.0.0"
+  },
+  "scripts": {
+    "typecheck": "tsc",
+    "lint": "eslint ."
+  }
+}
