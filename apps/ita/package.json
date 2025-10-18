@@ -11,12 +11,12 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@mono-npm/configs": "1.0.0",
-    "@mono-npm/utils": "1.0.0",
+    "@mono-npm/utils": "^1.0.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
+    "@mono-npm/configs": "^1.0.0",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
     "@vitejs/plugin-react": "^5.0.4",
