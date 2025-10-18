@@ -10,6 +10,7 @@
   ],
   "scripts": {
     "typecheck": "npm run typecheck --workspaces --if-present",
-    "lint": "npm run lint --workspaces --if-present"
+    "lint": "npm run lint --workspaces --if-present",
+    "format": "prettier . -w -u --cache --config configs/.prettierrc.yml"
   }
 }
