@@ -1,7 +1,6 @@
 /** @type {import('stylelint').Config} */
-export default {
+export const baseConfig = {
   allowEmptyInput: true,
-  cache: true,
   extends: [
     'stylelint-config-standard',
     'stylelint-config-recess-order',

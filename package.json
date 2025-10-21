@@ -11,7 +11,7 @@
   "scripts": {
     "typecheck": "npm run typecheck --workspaces --if-present",
     "lint": "npm run lint --workspaces --if-present",
-    "stylelint": "stylelint \"**/*.css\" --cache-location .cache -c configs/stylelint.config.js",
-    "format": "prettier . -w -u --cache --config configs/.prettierrc.yml"
+    "stylelint": "npm run stylelint --workspaces --if-present",
+    "format": "prettier . -w -u --cache"
   }
 }

@@ -3,8 +3,15 @@
   "version": "1.0.0",
   "type": "module",
   "exports": {
-    "./eslint-config": "./eslint.config.js",
-    "./ts-config": "./tsconfig.base.json"
+    "./tsconfig-react": "./typescript/tsconfig.react.json",
+    "./eslint-config": {
+      "import": "./eslint/eslint.config.js",
+      "types": "./eslint/eslint.config.d.ts"
+    },
+    "./stylelint-config": {
+      "import": "./stylelint/stylelint.config.js",
+      "types": "./stylelint/stylelint.config.d.ts"
+    }
   },
   "devDependencies": {
     "@eslint/js": "^9.38.0",

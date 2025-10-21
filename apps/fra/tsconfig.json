@@ -1,4 +1,4 @@
 {
-  "extends": "@mono-npm/configs/ts-config",
+  "extends": "@mono-npm/configs/tsconfig-react",
   "include": ["src"]
 }

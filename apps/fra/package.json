@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "typecheck": "tsc",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "stylelint": "stylelint \"**/*.css\""
   },
   "dependencies": {
     "@mono-npm/utils": "^1.0.0",
