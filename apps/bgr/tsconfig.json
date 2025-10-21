@@ -1,4 +1,4 @@
 {
-  "extends": "../../configs/tsconfig.base.json",
+  "extends": "@mono-npm/configs/ts-config",
   "include": ["src"]
 }
